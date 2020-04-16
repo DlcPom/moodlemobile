@@ -333,6 +333,7 @@
 <script type="text/template" id="add-site_template">
 <h1 class="app-ico">
     <img src="img/login-logo.png" alt="Moodle">
+    
 </h1>
 <form action="" novalidate>
     <div id="login-details">
@@ -352,6 +353,7 @@
             <input type="button" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
         </p>
     </div>
+     <img src="img/Dlclogo.png" alt="DLC">
 </form>
 <div id= "helplogin">
     <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
